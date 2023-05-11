@@ -20,7 +20,7 @@ export function SiteHeader() {
                 <span className="sr-only">User Info</span>
               <UserButton/></div>
             <Link
-              href={siteConfig.links.github}
+              href={{href:siteConfig.links.github}}
               target="_blank"
               rel="noreferrer"
             >

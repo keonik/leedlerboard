@@ -22,7 +22,7 @@ export default function IndexPage() {
         <Link
           target="_blank"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href={{href:siteConfig.links.github}}
           className={buttonVariants({ variant: "outline", size: "lg" })}
         >
           GitHub
