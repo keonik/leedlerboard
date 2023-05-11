@@ -4,15 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "pnpm run generate && next build",
     "start": "next start",
     "lint": "next lint",
-    "generate":"prisma generate"
+    "generate": "prisma generate"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.17.3",
     "@prisma/client": "^4.14.0",
     "@radix-ui/react-navigation-menu": "^1.1.2",
+    "@radix-ui/react-slot": "^1.0.1",
     "autoprefixer": "^10.4.14",
     "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
